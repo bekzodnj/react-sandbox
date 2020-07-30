@@ -1,6 +1,6 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-import Form from './js/components/Form';
+import App from './App';
 
-ReactDOM.render(<Form />, document.getElementById('container'));
+ReactDOM.render(<App />, document.getElementById('container'));
